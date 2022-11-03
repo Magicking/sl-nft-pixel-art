@@ -3,18 +3,18 @@
 
 ## Attributes
 
-  UI Editor                   UI Editor
-.#############              #############
-.#           #              #   _/ \_   #
-.#    ###    #    canvas    #    ###    #
-.#   #   #   #  /        \  #   #   #   #
-.#  # x x #  # /          \ #  # x x #  #
-.#  #  _ >=8 # Attribute    #  #  _  #  # Attribute    
-.#   #   #   # popularities #   #   #   # popularities 
-.#    ###    # [ 42 ] [PAY] #    ###    # [ 100 ] [PAY] 
-.#           #  6 copies    #           # 100 copies    
-.#############              #############
- scissor attribute          hat attribute
+      UI Editor                   UI Editor
+    .#############              #############
+    .#           #              #   _/ \_   #
+    .#    ###    #    canvas    #    ###    #
+    .#   #   #   #  /        \  #   #   #   #
+    .#  # x x #  # /          \ #  # x x #  #
+    .#  #  _ >=8 # Attribute    #  #  _  #  # Attribute    
+    .#   #   #   # popularities #   #   #   # popularities 
+    .#    ###    # [ 42 ] [PAY] #    ###    # [ 100 ] [PAY] 
+    .#           #  6 copies    #           # 100 copies    
+    .#############              #############
+     scissor attribute          hat attribute
 
 Attribute definition:
  - Name
@@ -27,37 +27,37 @@ Attribute definition:
 
 Attribute price x Popularity share
 
-.################
-.# 100-------+  #
-.#  .       /|  #
-.#  .      / |  #
-.#  .     /  |  #
-.# 42----+   |  #
-.#  .   /|   |  #
-.#  .  / |   |  #
-.#  . /  |   |  #
-.#  1/   |   |  #
-.#  #1...6...10 #
-.################
+    ################
+    # 100-------+  #
+    #  .       /|  #
+    #  .      / |  #
+    #  .     /  |  #
+    # 42----+   |  #
+    #  .   /|   |  #
+    #  .  / |   |  #
+    #  . /  |   |  #
+    #  1/   |   |  #
+    #  #1...6...10 #
+    ################
 
 ## Minting
 
 The mint operation combines multiple attributes and creates a new NFT
 
-.#############
-.#   _/ \_   #
-.#    ###    #
-.#   #   #   #
-.#  # x o #  #
-.#  #  _ >=8 #
-.#   #   #   #
-.#    ###    #
-.#    (x,y,z)#
- #############
-  scissor+hat
-  attributes
-      w/
-   x.o background
+    #############
+    #   _/ \_   #
+    #    ###    #
+    #   #   #   #
+    #  # x o #  #
+    #  #  _ >=8 #
+    #   #   #   #
+    #    ###    #
+    #    (x,y,z)#
+    #############
+      scissor+hat
+      attributes
+          w/
+     x.o background
 
 Mint:
  - Random background selected or depending the season
@@ -66,7 +66,7 @@ Mint:
 Display:
  - Render on-chain (BMP/GIF/PNG)
 
-.#############Fees on:
+Fees on:
  - Mint
  - Transfer
  - Attribute creation
